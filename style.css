@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+  display: block;
+}
+
+.header-group {
+  margin: 0 10%;
+  width: 1024px;
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  height: 70px;
+}
+
+ul {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  text-align: right;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+main {
+  margin: 0 auto;
+}
+
+#mv {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+#mv .container{
+  text-align: center;
+  color: #FAFAFA;
+}
+
+.mv-text {
+  padding-top: 200px;
+  font-size: 64px;
+}
+
+.mv-name {
+  padding-top:10px;
+  font-size:20px;
+}
+
+#portfolio {
+  width: 100%;
+  background-color: #ECEFF1;
+  display: flex;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.heading {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  margin-bottom: 8px;
+  border-bottom: 3px solid #EC715F;
+}
+
+.heading-text {
+  font-size:16px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.production-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 90px 0;
+}
+
+.production:nth-child(n) {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.production:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.production:nth-child(2) {
+  background-image: url(img/talk.jpg);
+}
+
+.production:nth-child(3) {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.production:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.production:nth-child(5) {
+  background-image: url(img/websuku.png);
+}
+
+.production:nth-child(6) {
+  background-image: url(img/write.jpg);
+}
+
+#feature {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.strength-group {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+i {
+  font-size:60px;
+}
+
+.strength {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.strength-title {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0 ;
+}
+
+.strength-text {
+  text-align: left;
+}
+
+#profile {
+  width: 100%;
+  background-color: #ECEFF1;
+  display: flex;
+  text-align: center;
+}
+
+.profile-group {
+  margin: 30px 0 90px 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.left-content {
+  width: 512px;
+}
+
+.my-face {
+  width:250px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+}
+
+.right-content {
+  width: 512px;
+  text-align: left;
+}
+
+.description-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.description-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#contact {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.contact-group {
+  margin: 30px 0 90px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.left-contact {
+  width: 400px;
+  text-align: left;
+}
+
+.right-contact {
+  width: 400px;
+  text-align: left;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+}
